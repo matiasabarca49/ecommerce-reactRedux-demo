@@ -1,0 +1,52 @@
+[
+    {
+    "name": "Juan",
+    "email": "juan@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Pedro",
+    "email": "pedro@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Raul",
+    "email": "camilo@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Fernando",
+    "email": "Fernando@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Agustín",
+    "email": "agustin@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Luis",
+    "email": "Luis@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Juan Carlos",
+    "email": "juancarlos@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Sofía",
+    "email": "sofia@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Lucía",
+    "email": "lucia@correo.com",
+    "token": "1234"
+    },
+    {
+    "name": "Analía",
+    "email": "analia@correo.com",
+    "token": "1234"
+    }
+]
