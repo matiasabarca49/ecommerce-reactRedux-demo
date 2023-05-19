@@ -7,6 +7,7 @@
     "code": "a1233",
     "stock": 25,
     "id": 1,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -18,6 +19,7 @@
     "code": "fd273",
     "stock": 25,
     "id": 2,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -29,6 +31,7 @@
     "code": "gh213",
     "stock": 25,
     "id": 3,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -40,6 +43,7 @@
     "code": "jh183",
     "stock": 25,
     "id": 4,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -51,6 +55,7 @@
     "code": "fg768",
     "stock": 25,
     "id": 5,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -62,6 +67,7 @@
     "code": "fc768",
     "stock": 25,
     "id": 6,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -73,6 +79,7 @@
     "code": "f2x68",
     "stock": 25,
     "id": 7,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -84,6 +91,7 @@
     "code": "z3bn8",
     "stock": 25,
     "id": 8,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -95,6 +103,7 @@
     "code": "l2798",
     "stock": 25,
     "id": 9,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -106,6 +115,7 @@
     "code": "1x768",
     "stock": 25,
     "id": 10,
+    "quantity": 1,
     "status": true,
     "category": "Ropa"
   },
@@ -118,6 +128,19 @@
     "stock": 20,
     "status": true,
     "category": "Ropa",
-    "id": 11
+    "id": 11,
+    "quantity": 1
+  },
+  {
+    "title": "Televisor 43",
+    "description": "Descripcion",
+    "price": 450000,
+    "thumbnail": "Sin imagen",
+    "code": "lg54hd",
+    "stock": 20,
+    "status": true,
+    "category": "Tecnología",
+    "id": 12,
+    "quantity": 1
   }
 ]

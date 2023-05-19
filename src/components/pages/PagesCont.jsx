@@ -1,15 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { unsetLogin } from '../../reducers/user/isLoginSlice'
 import Navbar from '../Navbar/Navbar'
-import Home from './Home'
+import Home from './home/Home'
 
 
 const PagesCont = (  ) => {
 
-  const distpach = useDispatch()
-  const { name }= useSelector( state => state.user)
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    
+    fetch("./data/products.json")
+      .then( res => res.json() )
+      .then( data => {
+        setProducts(data)
+      })
+
+  }, [])
+  
 
   
 
@@ -18,7 +28,7 @@ const PagesCont = (  ) => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={ <Home/> } />
+          <Route exact path='/' element={ <Home  products={ products } /> } />
         </Routes>
       </BrowserRouter>
     </>

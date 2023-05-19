@@ -12,9 +12,6 @@ const LoginForm = ( { users }  ) =>{
 
     const handleSubmit = (e) =>{
         e.preventDefault()
-        console.log(emailRef.current.value)
-        console.log(passwordRef.current.value)
-        console.log(users)
         const userFound = users.find(  user => user.email === emailRef.current.value  )
         if (userFound){
             if (userFound.token === passwordRef.current.value){
@@ -33,19 +30,19 @@ const LoginForm = ( { users }  ) =>{
     }
 
     return(
-        <div>
-            <h1>Login</h1>
+        <div className='container mt-5 mx-auto p-3 rounded bg-dark text-light'>
+            <h1 className='text-center my-5'>Login</h1>
             {error && <div> <p style={{color: "red"}}>El usuario o password es incorrecto</p> </div>}
-            <form onSubmit={ (e)=> handleSubmit(e) }>
+            <form  className="container" onSubmit={ (e)=> handleSubmit(e) }>
                 <div>
-                    <label htmlFor="">email</label>
-                    <input type="text" ref={emailRef} />
+                    <label htmlFor="">Email:</label>
+                    <input className='w-100' type="text" ref={emailRef} />
                 </div>
                 <div>
-                <label htmlFor="">Contraseña</label>
-                    <input type="password" ref={passwordRef} />
+                    <label htmlFor="">Contraseña:</label>
+                    <input className="w-100" type="password" ref={passwordRef} />
                 </div>
-                <button>Login</button>
+                <button className='btn btn-primary mt-2'>Login</button>
             </form>
         </div>
     )
