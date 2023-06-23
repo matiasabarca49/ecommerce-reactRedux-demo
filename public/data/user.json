@@ -48,5 +48,10 @@
     "name": "Analía",
     "email": "analia@correo.com",
     "token": "1234"
+    },
+    {
+    "name": "Prueba",
+    "email": "prueba@correo.com",
+    "token": "1234"  
     }
 ]
