@@ -32,6 +32,7 @@ Se puede descargar desde el propio Github en el apartado -> code-> Donwload ZIP 
 
 ```
 git clone https://github.com/matiasabarca49/ecommerce-reactRedux-demo.git
+```
 
 ## Instalación
 
